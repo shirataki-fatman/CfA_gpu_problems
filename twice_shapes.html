@@ -1,0 +1,10 @@
+<canvas id="canvas" width=258 height=258></canvas>
+<script type="text/javascript">
+	var context = document.getElementById("canvas").getContext("2d");
+	context.beginPath();
+	context.rect(0, 0, 128, 128);
+	context.rect(130, 130, 128, 128);
+	context.clip();
+	
+	context.fillRect(0, 0, 258, 258);
+</script>
